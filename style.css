@@ -19,7 +19,7 @@ section{
     padding: 10px;
     cursor: pointer;
     transition: 0.5s;
-    margin: 0px 20px;
+    margin: 20px 20px;
     letter-spacing: 2px;
 }
 .btn:hover{
@@ -44,4 +44,7 @@ input{
     background-color: rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 20px;
+}
+.HiddenNumber_1{
+    background-color: lightgreen;
 }

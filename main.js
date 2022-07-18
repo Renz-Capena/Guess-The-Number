@@ -7,7 +7,7 @@ let ShowBtn = document.querySelector('.ShowBtn');
 
 
 ShowBtn.addEventListener('click',()=>{
-    HiddenNumber.style.backgroundColor = "lightgreen"
+    HiddenNumber.classList.toggle('HiddenNumber_1')
 })
 
 HiddenNumber.innerText = Math.floor(Math.random() * 50 + 1)
