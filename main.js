@@ -30,7 +30,7 @@ GoBtn.addEventListener('click',()=>{
         }else if(UserInput.value < HiddenNumber.innerText){
             Hint.innerHTML = "<b>Your input is Less than</b>"
         }else{
-            alert("Wow your guess the hidden number");
+            alert("Wow you guess the hidden number !!!");
             location.reload();
         }
     }
